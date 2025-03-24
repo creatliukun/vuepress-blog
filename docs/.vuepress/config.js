@@ -5,7 +5,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
   lang: 'en-US',
-
+  base: '/vuepress-blog/', // 替换为仓库名称,解决样式丢失问题
   title: 'VuePress',
   description: 'My first VuePress Site',
 
